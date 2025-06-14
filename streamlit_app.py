@@ -10,8 +10,8 @@ st.set_page_config(page_title="Electric Load Forecast + Recommendations", layout
 
 @st.cache_data
 def load_data():
-    load_df = pd.read_excel("/Dataset/hourlyLoadDataIndia.xlsx")
-    temp_df = pd.read_excel("/Dataset/monthly_temp.xlsx")
+    load_df = pd.read_excel("/Electrical-Load-Forecasting/Dataset/hourlyLoadDataIndia.xlsx")
+    temp_df = pd.read_excel("/Electrical-Load-Forecasting/Dataset/monthly_temp.xlsx")
     load_df['datetime'] = pd.to_datetime(load_df['datetime'])
     load_df['year'] = load_df['datetime'].dt.year
     load_df['month'] = load_df['datetime'].dt.month
