@@ -75,31 +75,12 @@ streamlit run streamlit_app.py
 
 ---
 
-## 📊 Sample Metrics (Replace with actual values)
-
-| Model         | MAE      | RMSE     | R² Score |
-|---------------|----------|----------|----------|
-| Random Forest | 1723.56  | 3012.85  | 0.87     |
-| Prophet       | 1480.12  | 2679.43  | 0.90     |
-
----
-
 ## 🧩 Green AI Approach
 
 - ✅ Low-compute models (Prophet ≠ deep learning)
 - ✅ Regional selection avoids overtraining
 - ✅ Encourages real-world energy efficiency
 - ✅ Transparent + interpretable forecasting
-
----
-
-## 📸 Screenshots
-
-Add screenshots here showing the:
-- Region selector
-- Forecast graph
-- Recommendation card
-- Accuracy metrics
 
 ---
 
@@ -111,14 +92,3 @@ Add screenshots here showing the:
 - [ ] Deploy on Streamlit Cloud
 
 ---
-
-## 👥 Author
-
-- Akshat D (your name / institution)
-- Feel free to update with contributors or link to your paper/report
-
----
-
-## 📜 License
-
-MIT License – see LICENSE file for details.
